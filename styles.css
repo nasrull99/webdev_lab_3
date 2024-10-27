@@ -1,0 +1,179 @@
+/* Home */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* TABLE */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: lightgrey; /* color background for header */
+    color: rgb(58, 47, 47); /* White text for header */
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #000000; /* Light border for table cells */
+    padding: 8px;
+}
+
+.variable {
+    background-color: lightgrey; /* Light background for variable cells */
+}
+
+tr:hover {
+    background-color: #ffffff; /* Highlight row on hover */
+}
+
+/* hobbies */
+.hobbies {
+    margin: 20px; /* Add some margin */
+    font-family: Arial, sans-serif; /* Font family for better readability */
+}
+
+h2 {
+    text-align: center; /* Center the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #2c3e50; /* Change color for visual appeal */
+}
+
+ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    margin-bottom: 20px; /* Space between list items */
+    border: 1px solid #ccc; /* Add a border around each hobby */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside each item */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+strong {
+    color: #2980b9; /* Color for hobby titles */
+    display: block; /* Make the title block level for better spacing */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.image-gallery {
+    display: flex; /* Use flexbox for image layout */
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center images */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the single image */
+}
+
+img {
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+
+/* campus-life */
+.memorable-moments {
+    margin: 20px;
+    font-family: Arial, sans-serif; /* Font family for better readability */
+}
+
+h2 {
+    text-align: center; /* Center the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #2c3e50; /* Change color for visual appeal */
+}
+
+.moment {
+    margin-bottom: 40px; /* Space between moments */
+    border: 1px solid #ccc; /* Add a border around each moment */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside the moment */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+h3 {
+    color: #2980b9; /* Color for subheadings */
+    margin-bottom: 10px; /* Space below subheading */
+}
+
+.image-gallery,
+.media-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap */
+    justify-content: center; /* Center the images */
+    gap: 15px; /* Space between images */
+}
+
+.gallery-image {
+    width: 100%; /* Responsive images */
+    max-width: 300px; /* Maximum width for images */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+.media-video {
+    width: 100%; /* Responsive video */
+    max-width: 220px; /* Maximum width for video */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+p {
+    line-height: 1.6; /* Improve readability */
+}
